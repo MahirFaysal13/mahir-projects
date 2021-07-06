@@ -1,0 +1,123 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+}
+span{
+    color: blue;
+}
+h2{
+    font-size: 30px;
+}
+.first{
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 3%;
+}
+
+#second{
+    padding-top: 12%;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(blue ,  rgb(169, 169, 230) );
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 10px 40px;
+    margin-top: 10px;
+    box-shadow:  5px 5px 7px grey;
+}
+#contact{
+    text-decoration: none;
+    background-image: linear-gradient(blue ,  rgb(169, 169, 230) );
+    color: white;
+    border-radius: 10px;
+    font-weight: 700;
+    padding: 10px 30px;
+    margin-top: 20px;
+    box-shadow:  5px 5px 7px grey;
+}
+#order{
+    padding-bottom: 15px;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+.container{
+    position: relative;
+}
+.top-right {
+   position: absolute;
+    bottom: 20px;
+  right: 20px;
+  color:black;
+  padding-left: 800px;
+  padding-right: 100px;
+  padding-bottom: 220px;
+  float: right;
+  font-family: 'Ubuntu', sans-serif;
+ font-size: 18px;
+}
+#hey{
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+p{
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 28px;
+}
+.text{
+    text-align: center;
+    padding-top: 30px;
+}
+.box{
+    background-color: white;
+    box-shadow: 10px 10px 30px grey;
+    width: 22%;
+    border: 15px  black;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+.pic-box{
+    padding-bottom: 20px;
+    height: 200px;
+    width: 270px;
+    border-radius: 25px;
+
+}
+#inside-text{
+    text-align: left;
+}
+#heading{
+    text-align: center;
+
+}
+.display{
+    display: flex;
+    padding-bottom: 50px;
+}
+#soup{
+    height: 200px;
+    width: 270px;
+    padding-bottom: 20px;
+    border-radius: 25px;
+}
+#terminal{
+    text-align: center;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+#footer{
+    background-color: black;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+#ending{
+    color: white;
+    text-align: center;
+}
